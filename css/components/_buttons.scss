@@ -1,0 +1,22 @@
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+  color: $clrWhite;
+  border-radius: 1.8125rem;
+}
+.btn--aqua {
+  background-color: $clrAqua;
+}
+.btn--violet {
+  background-color: $clrViolet;
+}
+.btn--big {
+  width: 12.0625rem;
+  padding: 1rem 2.5rem;
+}
+.btn--small {
+  width: 8.6875rem;
+  padding: 1rem 1.8125rem;
+}
