@@ -8,9 +8,15 @@
 }
 .btn--aqua {
   background-color: $clrAqua;
+  &:hover {
+    background-color: $clrAquaHover;
+  }
 }
 .btn--violet {
   background-color: $clrViolet;
+  &:hover {
+    background-color: $clrVioletHover;
+  }
 }
 .btn--big {
   width: 12.0625rem;

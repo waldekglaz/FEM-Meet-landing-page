@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 
-.container {
+.container-fluid {
   background-color: #f2f2f2;
   font-family: "Red Hat Display", sans-serif;
   color: #87879d;
@@ -26,6 +26,11 @@ a {
   color: #d9b8ff;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .btn {
   display: block;
   margin-left: auto;
@@ -39,8 +44,16 @@ a {
   background-color: #4d96a9;
 }
 
+.btn--aqua:hover {
+  background-color: #71c0d4;
+}
+
 .btn--violet {
   background-color: #855fb1;
+}
+
+.btn--violet:hover {
+  background-color: #d9b8ff;
 }
 
 .btn--big {
@@ -290,7 +303,7 @@ a {
     padding: 1rem 30.125rem;
   }
   .section__text {
-    padding: 2.8125rem;
+    padding: 0 28.125rem;
   }
 }
 
@@ -301,8 +314,8 @@ a {
 }
 
 .section2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 169, 0.9))), url("../../assets/mobile/image-footer.jpg");
-  background-image: linear-gradient(rgba(77, 150, 169, 0.9)), url("../../assets/mobile/image-footer.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 169, 0.9))), url("../assets/mobile/image-footer.jpg");
+  background-image: linear-gradient(rgba(77, 150, 169, 0.9)), url("../assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -317,5 +330,43 @@ a {
 .section2__text {
   font-size: 1.125rem;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 1440px) {
+  .section2 {
+    padding: 116px 165px 104px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 169, 0.9))), url(../../assets/desktop/image-footer.jpg);
+    background-image: linear-gradient(rgba(77, 150, 169, 0.9)), url(../../assets/desktop/image-footer.jpg);
+  }
+  .section2 .btn {
+    margin: 0;
+  }
+  .section2-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+  }
+  .section2__title {
+    margin: 0;
+    padding: 2rem;
+    text-align: left;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    height: 100%;
+  }
+  .section2__text {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    -ms-flex-preferred-size: 31%;
+        flex-basis: 31%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

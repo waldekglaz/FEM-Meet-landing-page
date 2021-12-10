@@ -1,6 +1,6 @@
 .section2 {
   background-image: linear-gradient($clrAquaOverlay),
-    url("../../assets/mobile/image-footer.jpg");
+    url("../assets/mobile/image-footer.jpg");
   background-size: cover;
   background-position: center;
   color: $clrWhite;
@@ -13,4 +13,34 @@
 .section2__text {
   font-size: 1.125rem;
   margin-bottom: 2rem;
+}
+@media (min-width: 1440px) {
+  .section2 {
+    padding: 116px 165px 104px;
+
+    background-image: linear-gradient($clrAquaOverlay),
+      url(../../assets/desktop/image-footer.jpg);
+    .btn {
+      margin: 0;
+    }
+  }
+  .section2-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .section2__title {
+    margin: 0;
+    padding: 2rem;
+    text-align: left;
+    flex-basis: 30%;
+    height: 100%;
+  }
+  .section2__text {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex-basis: 31%;
+  }
 }

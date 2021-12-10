@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   background-color: $clrWhiteBackground;
   font-family: $fontMain;
   color: $clrGray;
@@ -11,4 +11,8 @@
 }
 .violet {
   color: $clrVioletLight;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
