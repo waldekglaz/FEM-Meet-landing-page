@@ -7,3 +7,13 @@
   display: block;
   margin: 0 auto 3.375rem;
 }
+@media (min-width: 768px) {
+  .logo {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 1440px) {
+  .logo {
+    margin-bottom: 3.8125rem;
+  }
+}

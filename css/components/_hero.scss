@@ -25,3 +25,53 @@
 .btn--small {
   margin-bottom: 4rem;
 }
+
+@media (min-width: 768px) {
+  .hero__bg-img {
+    min-width: 820px;
+    min-height: 303px;
+  }
+  .hero__title {
+    padding: 4.5rem 195px 24px;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .hero__text {
+    padding: 0 155px;
+  }
+  .hero__btns-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .btn--big,
+    .btn--small {
+      margin: 0;
+    }
+    .btn--big {
+      margin-right: 1rem;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .hero__bg-img {
+    display: none;
+  }
+  .hero__title-and-text-wrapper {
+    min-width: 820px;
+    min-height: 303px;
+    background-image: url(../../assets/desktop/image-hero-left.png),
+      url("../../assets/desktop/image-hero-right.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right -20px top 0, left -20px top 0;
+  }
+  .hero__title {
+    font-size: 4rem;
+    padding: 4.5rem 31.125rem 2.125rem;
+    line-height: 4rem;
+  }
+  .hero__text {
+    padding: 0 28.125rem 2rem;
+  }
+}
