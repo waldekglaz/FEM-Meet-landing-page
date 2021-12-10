@@ -64,12 +64,14 @@ a {
   margin: 0 auto 3.375rem;
 }
 
-.hero__img {
-  width: 110.4%;
-  height: auto;
-  display: block;
-  margin-left: -20px;
+.hero__bg-img {
+  min-width: 414px;
+  min-height: 153px;
   margin-bottom: 3rem;
+  background-image: url("../../assets/tablet/image-hero.png");
+  background-size: cover;
+  background-position: left -24px top 0;
+  background-repeat: no-repeat;
 }
 
 .hero__title {
