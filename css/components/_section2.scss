@@ -1,0 +1,16 @@
+.section2 {
+  background-image: linear-gradient($clrAquaOverlay),
+    url("../../assets/mobile/image-footer.jpg");
+  background-size: cover;
+  background-position: center;
+  color: $clrWhite;
+  padding: 5.75rem 1.5rem 4.5rem;
+  margin-top: -28px;
+}
+.title--white {
+  color: $clrWhite;
+}
+.section2__text {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
