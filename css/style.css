@@ -93,7 +93,7 @@ a {
   min-width: 414px;
   min-height: 153px;
   margin-bottom: 3rem;
-  background-image: url("../../assets/tablet/image-hero.png");
+  background-image: url("../assets/tablet/image-hero.png");
   background-size: cover;
   background-position: left -24px top 0;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ a {
   .hero__title-and-text-wrapper {
     min-width: 820px;
     min-height: 303px;
-    background-image: url(../../assets/desktop/image-hero-left.png), url("../../assets/desktop/image-hero-right.png");
+    background-image: url("../assets/desktop/image-hero-left.png"), url("../assets/desktop/image-hero-right.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right -20px top 0, left -20px top 0;
@@ -335,8 +335,8 @@ a {
 @media (min-width: 1440px) {
   .section2 {
     padding: 116px 165px 104px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 169, 0.9))), url(../../assets/desktop/image-footer.jpg);
-    background-image: linear-gradient(rgba(77, 150, 169, 0.9)), url(../../assets/desktop/image-footer.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 169, 0.9))), url("../assets/desktop/image-footer.jpg");
+    background-image: linear-gradient(rgba(77, 150, 169, 0.9)), url("../assets/desktop/image-footer.jpg");
   }
   .section2 .btn {
     margin: 0;
